@@ -26,6 +26,7 @@ const quill = new Quill('#editor', {
 ```
 
 CSS
+* you could choose how the searched word will look, but don't change, display: inline-block;
 ```
 .ql-searched-string {
     background-color: #f8ff00;
