@@ -25,3 +25,4 @@ const quill = new Quill('#editor', {
     },
 });
 ```
+
