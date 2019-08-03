@@ -13,4 +13,4 @@ SearchedStringBlot.blotName = 'SearchedString';
 SearchedStringBlot.className = 'ql-searched-string';
 SearchedStringBlot.tagName = 'div';
 
-export SearchedStringBlot;
+export default SearchedStringBlot;
