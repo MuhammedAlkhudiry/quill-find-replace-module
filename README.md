@@ -43,9 +43,11 @@ there should be:
 with IDs: search, replace, replace-all
 * an two input with IDs: search-input, replace-input
 
+#### example:
+
 ```
-<input id="search-input" class="input" type="text" placeholder="search">
-<input id="replace-input" class="input" type="text" placeholder="replace">
+<input id="search-input">
+<input id="replace-input">
 <button id="search">find</button>
 <button id="replace">replace</button>
 <button id="replace-all">replace all</button>
