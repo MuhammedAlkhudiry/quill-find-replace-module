@@ -26,7 +26,7 @@ const quill = new Quill('#editor', {
 ```
 
 CSS
-* you could choose how the searched word will look, but don't change, display: inline-block;
+* You could choose how the searched word will look, but don't change, display: inline-block;
 ```
 .ql-searched-string {
     background-color: #f8ff00;
@@ -38,12 +38,12 @@ CSS
 
 ## UI
 
-there should be:
-* three button for search, replace, replace-all
+There should be:
+* Three button for search, replace, replace-all
 with IDs: search, replace, replace-all
-* an two input with IDs: search-input, replace-input
+* Two input with IDs: search-input, replace-input
 
-#### example:
+#### Example:
 
 ```
 <input id="search-input">
@@ -54,7 +54,7 @@ with IDs: search, replace, replace-all
 ```
 
 # Contribution
-please, make an [issue](https://github.com/MuhammedAlkhudiry/quill-find-replace-module/issues).
+Please, make an [issue](https://github.com/MuhammedAlkhudiry/quill-find-replace-module/issues).
 
 # License
 [MIT License](https://rmm5t.mit-license.org/)
