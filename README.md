@@ -7,6 +7,8 @@ A module for Quill rich text editor to allow searching/finding words and replaci
 
 ## Usage
 
+Download Searcher.js, SearchBlot.js files, then:
+
 JS
 ```
 // import module files
