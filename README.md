@@ -18,8 +18,6 @@ Quill.register(SearchedStringBlot);
 
 // initialize Quill editor
 const quill = new Quill('#editor', {
-    // options
-    theme: 'snow',
     modules: {
         Searcher: true,
     },
