@@ -23,10 +23,10 @@ class Searcher {
       let re = new RegExp(SearchedString, "gi");
       let match = re.test(totalText);
       if (match) {
-        let indices = (Searcher.occurrencesIndices = this.getIndicesOf(
+        let indices = Searcher.occurrencesIndices = this.getIndicesOf(
           totalText,
           SearchedString
-        ));
+        );
         let length = (Searcher.SearchedStringLength = SearchedString.length);
 
         indices.forEach(index =>
