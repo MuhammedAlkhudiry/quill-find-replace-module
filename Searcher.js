@@ -116,3 +116,4 @@ Searcher.occurrencesIndices = null;
 Searcher.currentIndex = 0;
 Searcher.SearchedStringLength = null;
 
+export default Searcher;
