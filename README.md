@@ -7,6 +7,7 @@ A module for Quill rich text editor to allow searching/finding words and replaci
 
 ## Usage
 
+JS
 ```
 // import module files
 import Searcher from "path/to/Searcher.js";
@@ -24,9 +25,19 @@ const quill = new Quill('#editor', {
 });
 ```
 
+CSS
+```
+.ql-searched-string {
+    background-color: #f8ff00;
+    display: inline-block;
+
+}
+
+```
+
 ## UI
 
-there should be
+there should be:
 * three button for search, replace, replace-all
 with IDs: search, replace, replace-all
 * an two input with IDs: search-input, replace-input
@@ -40,7 +51,7 @@ with IDs: search, replace, replace-all
 ```
 
 # Contribution
-please, make an issue [Issues](https://github.com/MuhammedAlkhudiry/quill-find-replace-module/issues).
+please, make an [issue](https://github.com/MuhammedAlkhudiry/quill-find-replace-module/issues).
 
 # License
 [MIT License](https://rmm5t.mit-license.org/)
