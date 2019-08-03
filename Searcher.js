@@ -16,8 +16,7 @@ class Searcher {
         let SearchedString = document.getElementById('search-input').value;
         if (SearchedString) {
 
-            // todo: change to customGetText();
-            let totalText = ArabicHelper.removeTashkeel(quill.getText());
+            let totalText = quill.getText();
             let re = new RegExp(SearchedString, 'g');
             let match = re.test(totalText);
             if (match) {
