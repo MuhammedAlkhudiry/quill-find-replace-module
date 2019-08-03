@@ -54,7 +54,12 @@ class Searcher {
 
     quill.deleteText(indices[Searcher.currentIndex], oldString.length);
     quill.insertText(indices[Searcher.currentIndex], newString);
-
+    quill.formatText(
+          indices[Searcher.currentIndex],
+          newString.length,
+          "SearchedString",
+          false
+        )
     // update the occurrencesIndices.
     this.search();
   }
@@ -76,6 +81,7 @@ class Searcher {
         this.search();
       }
     }
+        this.removeStyle();
   }
 
   getIndicesOf(str, searchStr) {
