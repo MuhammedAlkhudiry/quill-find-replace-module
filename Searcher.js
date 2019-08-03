@@ -85,4 +85,4 @@ Searcher.occurrencesIndices = null;
 Searcher.currentIndex = 0;
 Searcher.SearchedStringLength = null;
 
-module.exports = Searcher;
+export Searcher;
