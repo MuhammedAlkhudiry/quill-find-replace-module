@@ -32,7 +32,9 @@ class Searcher {
 
         } else {
             if (Searcher.occurrencesIndices) {
-                Searcher.occurrencesIndices.forEach(index => quill.formatText(index, Searcher.SearchedStringLength, 'SearchedString', false));
+                Searcher.occurrencesIndices
+                    .forEach(index => 
+                             quill.formatText(index, Searcher.SearchedStringLength, 'SearchedString', false));
 
                 Searcher.occurrencesIndices = null;
                 Searcher.currentIndex = 0;
