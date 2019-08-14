@@ -55,7 +55,7 @@ with IDs: "search", "replace", "replace-all"
 <button id="replace-all">replace all</button>
 ```
 
-# future plans:
+# future plans
 * add options
 * the module now only support text-only editor, if your editor will include images, then the searcher with not work properly,
 see [here](https://github.com/quilljs/quill/issues/2698)
