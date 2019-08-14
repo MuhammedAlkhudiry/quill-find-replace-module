@@ -40,10 +40,10 @@ CSS
 
 ## UI
 
-There should be:
+There should be an input and button for every needed functionality:
 * Three button for search, replace, replace-all
-with IDs: search, replace, replace-all
-* Two input with IDs: search-input, replace-input
+with IDs: "search", "replace", "replace-all"
+* Two input with IDs: "search-input", "replace-input"
 
 #### Example:
 
@@ -55,6 +55,10 @@ with IDs: search, replace, replace-all
 <button id="replace-all">replace all</button>
 ```
 
+# future plans:
+* add options
+* the module now only support text-only editor, if your editor will include images, then the searcher with not work properly,
+see [here](https://github.com/quilljs/quill/issues/2698)
 # Contribution
 Please, make an [issue](https://github.com/MuhammedAlkhudiry/quill-find-replace-module/issues).
 
