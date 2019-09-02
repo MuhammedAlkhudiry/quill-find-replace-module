@@ -7,6 +7,9 @@ class Searcher {
       .getElementById("search")
       .addEventListener("click", this.search.bind(this));
     document
+      .getElementById("search-input")
+      .addEventListener("keyup", this.keyPressedHandler.bind(this));
+    document
       .getElementById("replace")
       .addEventListener("click", this.replace.bind(this));
     document
@@ -86,6 +89,11 @@ class Searcher {
     Searcher.removeStyle();
   }
 
+  keyPressedHandler(e) {
+    if (e.key === "Enter") {
+      this.search();
+    }
+      
   static removeStyle() {
        quill.formatText(0, quill.getText().length, 'SearchedString', false);
   }
