@@ -87,16 +87,7 @@ class Searcher {
   }
 
   static removeStyle() {
-    if (Searcher.occurrencesIndices) {
-      Searcher.occurrencesIndices.forEach(index =>
-        quill.formatText(
-          index,
-          Searcher.SearchedStringLength,
-          "SearchedString",
-          false
-        )
-      );
-    }
+       quill.formatText(0, quill.getText().length, 'SearchedString', false);
   }
 }
 
